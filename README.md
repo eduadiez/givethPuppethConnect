@@ -16,26 +16,26 @@
 
 ## Install 
 ```
-git clone https://github.com/eduadiez/givethPuppethConnect.git
-cd givethPuppethConnect
+$ git clone https://github.com/eduadiez/givethPuppethConnect.git
+$ cd givethPuppethConnect
 ```
 
 ## Initialize 
 ```
-docker-compose run --rm giveth_puppeth_network init --datadir=/root/.giveth /root/config/giveth.json
+$ docker-compose run --rm giveth_puppeth_network init --datadir=/root/.giveth /root/config/giveth.json
 ```
 
 ## Start
 ```
-docker-compose up -d
+$ docker-compose up -d
 or for foreground
-docker-compose up 
+$ docker-compose up 
 ```
 
 ## Test
 ```
-npm install
-node socketTest.js
+$ npm install
+$ node socketTest.js
 ```
 
 ## Mining
