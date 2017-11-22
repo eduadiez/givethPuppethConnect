@@ -17,6 +17,7 @@
 ## Install 
 ```
 git clone https://github.com/eduadiez/givethPuppethConnect.git
+cd givethPuppethConnect
 ```
 
 ## Initialize 
