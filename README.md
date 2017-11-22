@@ -40,6 +40,6 @@ node socketTest.js
 
 ## Mining
 ```
-$ start_mining.sh
-$ stop_mining.sh
+$ ./start_mining.sh
+$ ./stop_mining.sh
 ```
