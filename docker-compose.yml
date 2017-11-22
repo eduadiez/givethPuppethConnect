@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+    giveth_puppeth_network:
+        build: .
+        image: eduadiez/giveth_puppeth_network
+        container_name: "giveth_puppeth_network"
+        ports:
+            - "8545:8545"
+            - "8546:8546"
+            - "30303:30303"
+        volumes:
+            - ./data:/root/.giveth/
+            - ./config:/root/config
+        command: --networkid=33 --datadir=/root/.giveth --cache=1024 --syncmode=full --bootnodes=enode://3bd8355f5b531bb0a0fb222e650744b97960daa0ea0491a0c0cf1da233fb2ea64ba2c542e540e33d68505d39cf003500d5883f4e939659289c0b6fecf65b581a@82.196.1.147:30303 --rpc --rpcaddr "0.0.0.0" --rpccorsdomain='*' --ws --wsaddr "0.0.0.0" --wsorigins="*" 
