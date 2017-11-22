@@ -28,6 +28,8 @@ docker-compose run --rm giveth_puppeth_network init --datadir=/root/.giveth /roo
 ## Start
 ```
 docker-compose up -d
+or for foreground
+docker-compose up 
 ```
 
 ## Test
