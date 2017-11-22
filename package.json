@@ -1,0 +1,22 @@
+{
+  "name": "givethpuppethconnect",
+  "version": "1.0.0",
+  "description": "- git",
+  "main": "socketTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduadiez/givethPuppethConnect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduadiez/givethPuppethConnect/issues"
+  },
+  "homepage": "https://github.com/eduadiez/givethPuppethConnect#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.26"
+  }
+}
