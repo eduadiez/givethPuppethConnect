@@ -43,3 +43,8 @@ $ node socketTest.js
 $ ./start_mining.sh
 $ ./stop_mining.sh
 ```
+
+## Attach to console
+```
+$ docker-compose run --rm giveth_puppeth_network attach /root/.giveth/geth.ipc
+```
